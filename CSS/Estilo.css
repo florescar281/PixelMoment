@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+nav {
+    background-color: rgb(172, 95, 244);
+    color: white;
+}
+
+.BarraNavegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+}
+
+.Buscador {padding: 10px;
+    color: white;
+    border: none;
+}
+
+#Reiniciar {
+    background-color: rgb(172, 95, 244);
+    font-family: 'pacifico', cursive;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.Buscador {
+    background-color: rgb(202, 153, 248);
+    padding: 10px;
+}
+
+#ListaNavegacion {
+    padding: 0%;
+    margin: 0%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.Navegacion {
+    padding: 10px;
+    color: aliceblue;
+    background-color: rgb(172, 95, 244);
+    text-decoration: none;
+    font-family: oswald;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.BarLateral {
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px;  
+}
+
+.OpcBarLateral {
+    color: rgb(172, 95, 244);
+    text-decoration: none;
+    font-family: oswald;
+    font-size: 20px;
+    margin: 5px;
+}
+
+#Principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#Inicio{
+    color: aliceblue;
+    text-decoration: none;
+}
